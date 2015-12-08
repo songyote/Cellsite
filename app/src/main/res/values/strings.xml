@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Cell Site Information</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="btn_main_NewSurvey">New Survey</string>
+    <string name="btn_main_HistoryReport">History Report</string>
+    <string name="btn_main_UploadReport">Upload Report</string>
+    <string name="btn_main_Navigatior">Navigatior</string>
+    <string name="btn_main_Setting">Settings</string>
+
+    <string name="btn_main_footer">"สำนักงานคณะกรรมการกิจการกระจายเสียง กิจการโทรทัศน์และกิจการโทรคมนาคมแห่งชาติ (สำนักงาน กสทช.)"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_data">DataActivity</string>
+
+</resources>

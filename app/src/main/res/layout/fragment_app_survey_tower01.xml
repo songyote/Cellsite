@@ -1,0 +1,96 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="th.co.coe.cellsite.AppSurveyTower01Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="th.co.coe.p29.MainActivity"
+        tools:showIn="@layout/app_bar_main">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/bg_cellsite"
+            android:tintMode="screen"
+            android:visibility="invisible" />
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#66222222"
+            android:padding="24dp"
+            android:clickable="false">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_main_footer"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:id="@+id/main_footer"
+                />
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_main_NewSurvey"
+            android:id="@+id/btn_main_NewSurvey"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_main_HistoryReport"
+            android:id="@+id/btn_main_HistoryReport"
+            android:layout_below="@id/btn_main_NewSurvey"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/bth_main_padding"
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_main_UploadReport"
+            android:id="@+id/btn_main_UploadReport"
+            android:layout_below="@id/btn_main_HistoryReport"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/bth_main_padding"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_main_Navigatior"
+            android:id="@+id/btn_main_Navigatior"
+            android:layout_below="@id/btn_main_UploadReport"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/bth_main_padding"
+            />
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>
